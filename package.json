@@ -1,0 +1,30 @@
+{
+    "name": "cashu-lightning-claim-api",
+    "version": "1.0.0",
+    "description": "API for validating and claiming Cashu tokens to a Lightning address",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "dotenv": "^16.0.3",
+        "@cashu/cashu-ts": "^1.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/cashu-lightning-claim-api.git"
+    },
+    "keywords": [
+        "cashu",
+        "lightning",
+        "api",
+        "tokens"
+    ],
+    "author": "Michilis",
+    "license": "MIT"
+}
